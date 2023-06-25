@@ -1,0 +1,488 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-size: 18px; */
+}
+:root{
+    --blue: rgb(62, 84, 163);
+    --border: 1px solid rgb(219, 229, 230);
+}
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;
+}
+.background-white{
+    background-color: white;
+}
+.blue-cus-color{
+    color: var(--blue);
+}
+.text-center{
+    text-align: center;
+}
+.mrg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mrg-right{
+    margin-right: 30px;
+}
+.mrg-bottom{
+    margin-bottom: 30px;
+}
+.mr-down-sm{
+    margin-bottom: 5px;
+}
+.mr-down-md{
+    margin-bottom: 10px;
+}
+.pd-btm{
+    padding-bottom: 70px;
+}
+.pd{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.pd-sm{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.pd-lr{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pd-left{
+    padding-left: 25px;
+}
+.pd-left-15{
+    padding-left: 15px;
+}
+.pd-right{
+    padding-right: 20px;
+}
+.pad-25{
+    padding: 25px;
+}
+.pd-down{
+    padding-bottom: 22px;
+}
+.pd-top{
+    padding-top: 50px;
+}
+.pd-top-10{
+    padding-top: 20px;
+}
+.cus-pad{
+    padding: 20px 50px 20px 0;
+}
+.pp{
+    font-family: 'Heebo', sans-serif;
+}
+.m-width{
+    width: 1000px;
+}
+.weight{
+    font-weight: 700;
+}
+.center{
+    align-items: center;
+}
+.display-flex{
+    display: flex;
+}
+.weidth-div{
+    width: 70vw;
+    margin: 0 auto;
+}
+.md-width{
+    width: 34vw;
+}
+.column-flex{
+    display: flex;
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-17{
+    font-size: 17px;
+}
+.font-25{
+    font-size: 25px;
+}
+.text-1{
+    color: rgb(106, 190, 205);
+    margin-right: 10px;
+}
+.text-2{
+    color: rgb(207, 99, 144);
+    margin-left: 10px;
+}
+.text-3{
+    border: 1px solid rgb(170, 215, 66);
+    border-radius: 5px;
+    color: rgb(170, 215, 66);
+    font-size: 12px;
+    padding: 2px 10px;
+    position: relative;
+}
+.text-3::before{
+    content: "2";
+    position: absolute;
+    background-color: rgb(170, 215, 66);
+    color: white;
+    left: -17px;
+    padding: 3px 5px 3px 7px;
+    top: -1px;
+    border-radius: 4px 0 0 4px;
+}
+.btn-rid{
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+}
+.btn1{
+    background-color: rgb(62, 84, 163);
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    color: white;
+    font-size: 14px;
+    transition: ease 0.1s;
+    cursor: pointer;
+}
+.btn2{
+    background-color: rgb(219, 229, 230);
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    transition: ease 0.1s;
+    cursor: pointer;
+}
+.btn3{
+    background-color: rgb(62, 84, 163);
+    margin-right: 10px;
+    padding: 11px 20px;
+    color: white;
+    font-size: 16px;
+    transition: ease 0.1s;
+    width: 270px;
+    cursor: pointer;
+}
+.btn-back{
+    background-color: rgb(231, 235, 249);
+    border-radius: 15px;
+    padding: 2px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 22px;
+}
+.btn1:hover{
+    background-color: rgb(41, 55, 107);
+}
+.btn2:hover{
+    background-color: rgb(174, 196, 198);
+}
+.btn3:hover{
+    background-color: rgb(41, 55, 107);
+}
+.border-rid{
+    border: var(--border);
+    border-radius: 10px;
+}
+.icon-size{
+    font-size: 30px;
+}
+.pad-5-right{
+    padding-right: 5px;
+}
+.a-cus a{
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.high-light{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(219, 229, 230);
+}
+.nav-one{
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: var(--blue);
+    justify-content: center;
+    font-weight:500;
+}
+.nav-one a{
+    color: inherit;
+    align-items: center;
+    font-weight: inherit;
+    margin-left: 5px;
+}
+.nav-one-one{
+    align-items: center;
+}
+.nav-one-one p{
+    margin-left: 8px;
+}
+.nav-one-one .icon{
+    font-weight: 800;
+}
+.nav{
+    padding: 15px 0;
+}
+.nav-items{
+    width: 410px;
+    align-items: center;
+}
+.nav-items a{
+    position: relative;
+    font-weight:900;
+    cursor: pointer;
+}
+.nav-items a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -7px;
+    background-color: rgb(237, 44, 73);
+    left: 0;
+    transform: scaleX(0);
+    transition: 0.3s ease-in-out;
+}
+.nav-items a:hover::after{
+    transform: scaleX(1);
+}
+.pp-color{
+    color: rgb(115, 115, 115);
+}
+.cc{
+    background-color: rgb(240, 244, 244);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px 200px 20px 15px;
+    font-size: 15px;
+}
+.pro{
+    position: relative;
+    padding-right: 50px;
+}
+.pro::before{
+    content: "PRO";
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    margin-left: 8px;
+    background-color: var(--blue);
+    padding: 1px 6px;
+    right: 1px;
+    border-radius: 2px;
+}
+.challenge {
+    border-bottom: var(--border);
+    border-top: var(--border);
+    position: sticky;
+    top: 0px;
+    z-index: 6;
+    background: white;
+}
+.challenge-1{
+    position: sticky;
+}
+.challenge-1 p{
+    width: fit-content;
+    padding: 15px 28px;
+    border-right: var(--border);
+    border-left: var(--border);
+    font-weight: 600;
+}
+.challenge-faqs{
+    width: 50vw;
+    margin: 0 auto;
+}
+.challenge-faqs .challenge-p{
+    justify-content: center;
+    margin: 25px;
+    font-weight: 600;
+}
+.link:hover{
+    text-decoration: none;
+}
+.link-active:hover{
+    text-decoration: underline;
+}
+.wrong{
+    position: relative;
+}
+.correct{
+    position: relative;
+}
+.wrong::before{
+    content: "×";
+    font-size: 33px;
+    position: absolute;
+    left: 1px;
+    color: rgb(237, 44, 73);
+    top: -7px;
+}
+.correct::before{
+    content: "✓";
+    position: absolute;
+    font-size: 23px;
+    left: 1px;
+    top: -9px;
+    color: rgb(0, 219, 154);
+    font-weight: 600;
+}
+.idea-1{
+    position: relative;
+}
+.idea-2{
+    position: relative;
+}
+.idea-3{
+    position: relative;
+}
+.idea-1::before{
+    position: absolute;
+    left: 1px;
+    content: "1.";
+}
+.idea-2::before{
+    position: absolute;
+    left: 1px;
+    content: "2.";
+}
+.idea-3::before{
+    position: absolute;
+    left: 1px;
+    content: "3.";
+}
+.faqs p {
+    border: var(--border);
+    border-radius: 10px;
+    padding: 22px 60px 22px 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.faqs p::after{
+    content: "";
+    background-image: url(images/plus.svg);
+    font-size: 30px;
+    position: absolute;
+    width: 36px;
+    color: black;
+    height: 35px;
+    right: 20px;
+    top: 13px;
+}
+.background-cus{
+    background-color: var(--blue);
+    border-radius: 10px;
+    height: 500px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.background-cus::after{
+    content: "";
+    background-image: url(images/bg-discord.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 500px;
+    width: 680px;
+    bottom: -8px;
+    right: -58px;
+}
+.width-icon{
+    width: 150px;
+}
+.width-icon a{
+    color: rgb(106, 190, 205);;
+}
+.stay-up{
+    font-size: 28px;
+    color: var(--blue);
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.f-p p{
+    margin: 10px 0;
+    font-weight: 600;
+}
+.btn-footer{
+    background: rgb(237, 44, 73);
+    font-weight: 700;
+    transition: 0.1s ease-in-out;
+}
+.btn-footer:hover{
+    background-color: rgb(188, 16, 42);
+}
+.white-btn{
+    transition: 0.1s ease-in-out;
+}
+.white-btn:hover{
+    background-color: rgb(217, 217, 217);
+}
+.text{
+    width: 267px;
+    margin-bottom: 30px;
+}
+.footer-item-1 {
+    width: 404px;
+}
+.inpt{
+    padding: 10px 28px 10px 5px;
+    border: 1px solid rgb(219, 229, 230);
+    font-size: 18px;
+    color: rgb(219, 229, 230);
+}
+.footerr-1{
+    border-top: var(--border);;
+}
+.footerr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-items{
+    width: 400px;
+}
+.footerr p{
+    color: rgb(115, 115, 115);
+}
+.dot{
+    position: relative;
+}
+.dot::before{
+    content: "•";
+    position: absolute;
+    left: 10px;
+    width: 12px;
+    height: 12px;
+}
+/* 
+@media (max-width: 768px) {    
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) {
+} */
